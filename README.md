@@ -20,7 +20,6 @@ A neural network with a single hidden layer.
 - Hidden layer activation function: Options include ReLU, sigmoid, or tanh.
 - Output layer activation function: Can be either softmax for multiclass classification or sigmoid for binary classification.
 - Learning rate: Controls the step size at each iteration during model training.
-- Random seed: Provides reproducibility of the results.
 
 ## 3. Deep Neural Network
 
@@ -32,7 +31,6 @@ A deep neural network capable of handling multiple hidden layers.
 - Learning rate: Controls the step size at each iteration during model training.
 - Hidden layer activation: Applies to all hidden layers and can be set to relu, sigmoid, or tanh.
 - Output layer activation: Can be sigmoid for binary classification or softmax for multiclass classification.
-- Random seed: Provides reproducibility of the results.
 
 ## Potential Improvements:
 - Addition of L1 and L2 regularization: Helps prevent overfitting and improves model generalization.
@@ -42,3 +40,4 @@ A deep neural network capable of handling multiple hidden layers.
 - Explore techniques like dropout, batch normalization, or early stopping.
 - Explore advanced architectures like residual connections, skip connections, or attention mechanisms to improve model performance.
 - Extend the models to support regression tasks: Introduce a new cost function such as mean squared error (MSE) and adjust the output layer activation to match the requirements of regression.
+- Allow hidden layers to have different activation functions.
